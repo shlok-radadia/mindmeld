@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="left">
+        <img src="../../images/01.jpg" alt="Loading..." id="image">
+    </div>
+    <div id="right">
+        <span id="heading">Create an account</span>
+        <form id="signup_form">
+            <input type="text" name="first_name" id="first_name" autocomplete="off" placeholder="First Name">
+            <input type="text" name="last_name" id="last_name" autocomplete="off" placeholder="Last Name">
+            <input type="number" name="age" id="age" autocomplete="off" placeholder="Age" min="13">
+            <input type="text" name="occupation" id="occupation" autocomplete="off" placeholder="Occupation">
+            <select name="gender" id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <input type="email" name="email" id="email" autocomplete="off" placeholder="Email">
+            <input type="password" name="password" id="password" placeholder="Password">
+            <input type="submit" value="Create Account" id="signup">
+        </form>
+        <span id="already">Already have an account?&nbsp;<a href="../login/index.html">Login</a></span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

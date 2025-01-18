@@ -1,0 +1,208 @@
+body{
+    background-image: url('../../../images/problem.png');
+}
+
+#problem_solving_container {
+    border-radius: 50px;
+    position: absolute;
+    height: 90%;
+    width: 50%;
+    top: 5%;
+    left: 25%;
+    background-color: #f4f4f4;
+    box-shadow: 0px 0px 15px 10px #a9cdd77c;
+}
+
+#heading{
+    /* border: 1px solid #000000; */
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#question_area{
+    /* border: 1px solid #000000; */
+    position: absolute;
+    top: 25%;
+    left: 0%;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#question{
+    position: absolute;
+    top: 5%;
+}
+  
+#options li {
+    margin: 10px;
+    padding: 10px;
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#feedback{
+    /* border: 1px solid #000000; */
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#timer{
+    /* border: 1px solid #000000; */
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#start_button{
+    position: absolute;
+    top: 90%;
+    height: 7%;
+    width: 50%;
+    left: 25%;
+    font-size: large;
+    border-radius: 20px;
+    color: #ff9354;
+    background-color: #ffe454;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid #ff9354;
+    font-weight: bold;
+}
+#again{
+    position: absolute;
+    top: 87%;
+    height: 7%;
+    width: 50%;
+    left: 25%;
+    font-size: large;
+    border-radius: 20px;
+    color: #ff9354;
+    background-color: #ffe454;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid #ff9354;
+    font-weight: bold;
+}
+
+#from_above{
+    /* border: 1px solid #000000; */
+    background-color: #f4f4f4;
+    position: absolute;
+    height: 70%;
+    width: 70%;
+    left: 15%;
+    z-index: 99;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 10px #a9cdd77c;
+    transition: top 1s ease;
+}
+
+#score{
+    /* border: 1px solid #000000; */
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    height: 18.75%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#accuracy{
+    /* border: 1px solid #000000; */
+    position: absolute;
+    top: 25.75%;
+    left: 0%;
+    height: 18.75%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#avg_score{
+    /* border: 1px solid #000000; */
+    position: absolute;
+    top: 46.5%;
+    left: 0%;
+    height: 18.75%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#avg_accuracy{
+    /* border: 1px solid #000000; */
+    position: absolute;
+    left: 0%;
+    top: 66.25%;
+    height: 18.75%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.open{
+    top: 15%;
+}
+.close{
+    top: -100%;
+}
+
+
+#back{
+    position: absolute;
+    left: 0.5%;
+    top: 1%;
+    height: 7%;
+    width: 10%;
+    font-size: large;
+    outline: none;
+    /* border: none; */
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+#back:hover{
+    box-shadow: 0px 0px 10px 5px #a9cdd77c;
+}

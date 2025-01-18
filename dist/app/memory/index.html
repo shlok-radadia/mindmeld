@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Test</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/19130d74a3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="memory_test_container">
+        <span id="heading">Memory Test</span>
+        <span id="instructions">Memorize the following words. Click "Start Test" to begin.</span>
+        <button id="start_test">Start Test</button>
+        <div id="memory_items" style="display: none;"></div>
+        <div id="recall_phase" style="display: none;">
+          <span id="recall_words">Recall the words</span>
+          <input type="text" id="user_input" placeholder="Enter the words separated by spaces" />
+          <button id="submit_answers">Submit</button>
+        </div>
+        <span id="result"></span>
+    </div>
+
+    <div id="data">
+        <span id="avg">Average Correctly Guessed Words: </span>
+    </div>
+
+    <button id="back"><i class="fa-solid fa-circle-arrow-left"></i> Back</button>
+      
+    
+    <script src="script.js"></script>
+</body>
+</html>
