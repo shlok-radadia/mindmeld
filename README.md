@@ -42,12 +42,6 @@ To get started with this project, follow these steps:
 
 ## Usage
 
-### Development Server
-Run the development server for live previews:
-```bash
-npm start
-```
-
 ### Build for Production
 Generate optimized production files:
 ```bash
