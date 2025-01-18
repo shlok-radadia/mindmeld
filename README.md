@@ -1,6 +1,6 @@
 # Agglomeration
 
-Agglomeration is a project designed to [briefly describe the purpose or functionality of the project, e.g., "streamline image processing"]. This README provides an overview of the project's structure and usage.
+Agglomeration is a project designed to provide an interactive cognitive performance tracking system that can measure mental acuity, focus, and memory through simple exercises that require no external devices, only users interaction with the laptop. This README provides an overview of the project's structure and usage.
 
 ## Project Structure
 
