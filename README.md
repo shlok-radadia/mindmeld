@@ -30,6 +30,15 @@ To get started with this project, follow these steps:
    ```bash
    npm install
    ```
+   ```bash
+   npm init -y
+   ```
+   ```bash
+   npm i webpack webpack-cli  -D
+   ```
+   ```bash
+   npm install firebase
+   ```
 
 ## Usage
 
